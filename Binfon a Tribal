@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    int y,w,d;
+    cin>>n;
+    y=n/365;
+    w=(n%365)/7;
+    d=(n%365)%7;
+    cout<<y<<endl<<w<<endl<<d;
+    
+}
