@@ -1,0 +1,14 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,b,c;
+    float x,y,z;
+    cin>>a>>b>>c;
+    x=a+b;
+    z=(x/100)*c;
+    y=x-z;
+    cout<<fixed<<setprecision(2)<<x<<endl<<fixed<<setprecision(2)<<y<<endl<<fixed<<setprecision(2)<<z;
+    
+}
