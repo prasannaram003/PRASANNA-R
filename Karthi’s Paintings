@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,x,y,z;
+    cin>>a>>b>>c>>x>>y>>z;
+    if(a*b>=(c*x)+(y*z))
+    {
+        cout<<"Karthi can fix both painting";
+    }
+    else
+    {
+        cout<<"Karthi cannot fix both painting";
+    }
+}
