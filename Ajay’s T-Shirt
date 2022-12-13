@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,f,g,h,i;
+    float l,m,n;
+    cin>>a>>b>>c>>d>>e>>f>>g>>h>>i;
+    l=(((a-(a*b)/100))+c);
+    m=(((d-(d*e)/100))+f);
+    n=(((g-(g*h)/100))+i);
+    cout<<"In Flipkart Rs."<<l<<endl;
+    cout<<"In Snapdeal Rs."<<m<<endl;
+    cout<<"In Amazon Rs."<<n<<endl;
+    if(l<m && l<n)
+    {
+        cout<<"He will prefer flipkart";
+    }
+    else if(m<l && m<n)
+    {
+        cout<<"He will prefer Snapdeal";
+    }
+    else
+    {
+        cout<<"He will prefer Amazon";
+    }
+    
+}
