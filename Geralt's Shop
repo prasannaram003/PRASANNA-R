@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string a;
+    int b,c,d,i,j;
+    cin>>a>>b>>c>>d;
+    i=d*c;
+    j=b-d;
+    {
+        cout<<"Amount for "<<d<<" "<<a<<" "<<"is "<<i<<endl;
+    }
+    if(b<=j)
+    {
+        cout<<"out of stock";
+        
+    }
+    else 
+    {
+        cout<<"Remaining number of pencil present in stock is "<<j;
+    }
+}
