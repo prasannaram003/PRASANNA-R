@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    if(a>=((75*b)+(50*c)))
+    {
+        cout<<"Boat is stable";
+    }
+    else
+    {
+        cout<<"boat will drown";
+    }
+}
