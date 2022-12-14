@@ -1,3 +1,19 @@
+QUESTION:
+Ajay wants to buy a T-shirt. As he is very lazy, he decided to buy the T-shirt through online shopping. He chooses a T-shirt in Flipkart and surprised to see the same
+T-shirt also in Amazon and Snapdeal. So he decided to buy the T-shirt in which the price of the T-shirt is low. The price of the T-shirt, discount % and the shipping 
+charges of all three websites have been given as input. Help in calculating the price of T-shirt in each website and help him to decide which website has low price.
+
+INPUT & OUTPUT FORMAT:
+Input consist of 9 integers.
+
+First three input corresponds to Flipkart details such as the amount of the shirt, discount offered and shipping charges.
+
+Next three input corresponds to Snapdeal details such as the amount of shirt, discount offered and shipping charge.
+
+Last three input corresponds to amazon details such as the amount of shirt, discount offered and shipping charge.
+
+CODING:
+
 #include<iostream>
 using namespace std;
 int main()
