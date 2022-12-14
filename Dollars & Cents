@@ -1,3 +1,18 @@
+QUESTION:
+Write a C program to add two dollars and cents:
+
+Sample Input:
+30
+10
+140
+99
+
+Sample Output:
+171
+
+9
+CODING:
+
 #include<iostream>
 #include<math.h>
 using namespace std;
