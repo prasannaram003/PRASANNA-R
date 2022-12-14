@@ -1,3 +1,23 @@
+QUESTION:
+
+INPUT & OUTPUT FORMAT:
+
+The input consists of a character.
+
+The output should be any one of the below-given strings.
+
+"Upper" or "Number" or "Symbol" or "Lower"
+
+
+Sample Input:
+
+A
+
+Sample Output:
+
+Upper
+
+CODING:
 #include<iostream>
 using namespace std;
 int main()
