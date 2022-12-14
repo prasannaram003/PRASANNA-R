@@ -1,0 +1,20 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int dollar_1,cent_1,dollar_2,cent_2;
+    float x,y,z,w;
+    cin>>dollar_1>>cent_1>>dollar_2>>cent_2;
+    while(dollar_1<0);
+    {
+        x= (dollar_1+dollar_2);
+        y= (cent_1*.01)+(cent_2*.01);
+        z=x+y;
+        cout<<(int)z<<"\n";
+        w=((float)z-(int)z)*100;
+        int a=round(w);
+        cout<<a;
+    }
+    return 0;
+}
