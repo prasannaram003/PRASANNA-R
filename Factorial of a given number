@@ -1,3 +1,16 @@
+QUESTION:
+
+Write a C program to find the factorial of a given number.
+
+Sample Input:
+5
+
+Sample Output:
+
+120
+
+CODING:
+
 #include<iostream>
 using namespace std;
 int main()
