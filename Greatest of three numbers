@@ -1,3 +1,29 @@
+QUESTION:
+
+Write a program to find which number is greatest among three numbers.
+
+Input Format:
+
+Input consists of three integers.
+
+Output Format:
+
+output consists of greater number
+
+
+Sample Input:
+10
+
+20
+
+30
+
+Sample Output:
+
+30 is greater
+
+CODING:
+
 #include<iostream>
 using namespace std;
 int main()
