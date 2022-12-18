@@ -1,0 +1,26 @@
+QUESTION:
+
+Write a program to generate the following series – 2, 4, 7, 12, 21…..
+
+Sample Input:
+5
+
+Sample Output:
+
+2 4 7 12 21
+
+CODING:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=2,n,i;
+    cin>>n;
+    cout<<"2"<<" "; 
+    for(int i=0;i<n;i++)
+    {
+        a=(a*2)-i;
+        cout<<a<<" ";
+    }
+}
