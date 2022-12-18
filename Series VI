@@ -1,0 +1,26 @@
+QUESTION:
+
+Write a program to generate the following series - 1, 4, 27, 256….
+
+Sample Input:
+5
+
+Sample Output:
+
+1 4 27 256 3125
+
+CODING:
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        a=pow(i,i);
+        cout<<a<<" ";
+    }
+}
