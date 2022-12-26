@@ -1,6 +1,7 @@
 QUESTION:
 
-Adam was learning about storage structure with the help of Roz. Roz's first task was to make Adam understand the concept of array by asking Adam to create an array dynamically and get the inputs into the array and print the array. As Adam had confusion she has approached you for help.
+Adam was learning about storage structure with the help of Roz. Roz's first task was to make Adam understand the concept of array by asking Adam to 
+create an array dynamically and get the inputs into the array and print the array. As Adam had confusion she has approached you for help.
 Help Adam by writing a program to create an array , get inputs and print the inputs.
 
 Sample Input:
