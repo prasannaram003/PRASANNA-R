@@ -1,0 +1,67 @@
+QUESTION:
+
+Write a C program at the given position. to insert an element in an array
+If the position where the element to be inserted is greater than the size of an array display “Invalid Input”:
+Input & Output Format:
+
+Input consists of 3 integers and 1 array
+
+First input corresponds to the size of an array.
+
+Second give the elements of an array based on size as input.
+
+Third input corresponds the location where you want to insert the element.
+
+Fourth input corresponds the value to be inserted.
+
+Output consists of the new array after insertion.
+
+Sample Input:
+5
+1
+2
+3
+4
+5
+4
+10
+
+Sample Output:
+1
+2
+3
+10
+4
+5
+
+CODING:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,pos,ele,i,j;
+    cin>>a;
+    int b[a];
+    for(i=0;i<a;i++)
+    {
+        cin>>b[i];
+    }
+    cin>>pos>>ele;
+    if(pos>=a)
+    {
+        cout<<"Invalid input";
+    }
+    else
+    {
+    for(i=a;i>=pos-1;i--)
+    {
+        b[i+1]=b[i];
+    }
+    b[pos-1]=ele;
+    for(i=0;i<=a;i++)
+    {
+        cout<<b[i]<<endl;
+    }
+    }
+}
