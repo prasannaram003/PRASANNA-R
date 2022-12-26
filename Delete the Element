@@ -1,0 +1,59 @@
+QUESTION:
+
+Write a C program to delete the element from the given location in an array:
+
+Input & Output Format:
+
+Input consists of two integer and one array.
+First Input consists of size of an array.
+Second give the array elements based on their size.
+Third input consists of the position where we need to delete it.
+Output consists of an array after deletion.
+
+Sample Input:
+5
+1
+2
+3
+4
+5
+
+4
+
+Sample Output:
+1
+2
+3
+5
+
+CODING:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,pos,i,j;
+    cin>>a;
+    int b[a];
+    for(i=0;i<a;i++)
+    {
+        cin>>b[i];
+    }
+    cin>>pos;
+    if(pos>a)
+    {
+        cout<<"Invalid input";
+    }
+    else
+    {
+    for(i=pos-1;i<=a;i++)
+    {
+        b[i]=b[i+1];
+    }
+//    b[pos-1]=ele;
+    for(i=0;i<=a;i++)
+    {
+        cout<<b[i]<<endl;
+    }
+    }
+}
