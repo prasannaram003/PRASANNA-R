@@ -1,0 +1,55 @@
+QUESTION:
+
+Write a C program to find whether two arrays are same or not. Two arrays are said to be same if the sum of both the arrays are same and size of arrays
+are same:
+
+INPUT FORMAT:
+
+Input consists of 2 integers and 2 arrays.
+
+Integers correspond to the size of arrays.
+
+If two arrays are same, display "Same" else display "Not Same"
+
+
+Sample Input:
+3
+3
+1
+2
+3
+1
+2
+3
+
+Sample Output:
+Same
+
+CODING:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,c,array_1=0,array_2=0;
+    cin>>a>>c;
+    int b[a],d[c];
+    for(int i=0;i<a;i++)
+    {
+        cin>>b[i];
+        array_1=array_1+b[i];
+    }
+    for(int j=0;j<c;j++)
+    {
+        cin>>d[j];
+        array_2=array_2+d[j];
+    }
+    if((array_1==array_2)&&(a==c))
+    {
+        cout<<"Same";
+    }
+    else
+    {
+        cout<<"Not same";
+    }
+}
