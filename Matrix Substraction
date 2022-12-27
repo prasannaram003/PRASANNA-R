@@ -1,0 +1,70 @@
+QUESTION:
+
+write a C program to perform matrix subtraction using 2D 
+
+Input Format:
+
+Input consists of 2 integers and 2 matrix.
+
+First input consists of a row.
+
+Second input consists of a column
+
+Third give the elements of the first matrix.
+
+Fourth give the elements of the second matrix.
+
+Output Format:
+
+Output consists of 1 matrix
+
+output consists of a substraction of a matrix
+
+
+
+Sample Input:
+2
+2
+1 5
+9 4
+1 1
+1 1
+
+Sample Output:
+0 -4
+-8 -3
+
+CODING:
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int r,c,i,j;
+    cin>>r>>c;
+    int a[r][c];
+    int b[r][c];
+    int d[r][c];
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            cin>>a[i][j];
+        }
+    }
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            cin>>b[i][j];
+        }
+    }
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            cout<<b[i][j]-a[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
